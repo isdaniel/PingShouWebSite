@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="石秉修的個人網站">
+    <meta name="keywords" content="石秉修,PingShou,個人網站">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PingShou</title>
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/WebCss.css" rel="stylesheet">
+    <style rel="stylesheet">
+        .mwt_border{
+            width:250px;
+            height:150px;
+            text-align:center;
+            background:#FFFACD;
+            position:relative;
+            border: solid 1px #333;
+            margin:20px;
+            padding:20px;
+        }
+        /*箭頭右*/
+        .mwt_border .arrow_r_int{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:transparent transparent transparent #333;
+            position:absolute;
+            top:20%;
+            right:-30px;
+        }
+        /*箭頭右-邊框*/
+        .mwt_border .arrow_r_out{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:transparent transparent transparent #fff;
+            position:absolute;
+            top:20%;
+            right:-29px;
+        }
+
+        /*箭頭左*/
+        .mwt_border .arrow_l_int{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:transparent #333 transparent  transparent ;
+            position:absolute;
+            top:20%;
+            left:-30px;
+        }
+        /*箭頭左-邊框*/
+        .mwt_border .arrow_l_out{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:transparent #fff transparent transparent ;
+            position:absolute;
+            top:20%;
+            left:-29px;
+        }
+
+        /*箭頭上*/
+        .mwt_border .arrow_t_int{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:transparent transparent #333 transparent ;
+            position:absolute;
+            top:-30px;
+            left:40px;
+        }
+        /*箭頭上-邊框*/
+        .mwt_border .arrow_t_out{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:transparent transparent #fff transparent ;
+            position:absolute;
+            top:-29px;
+            left:40px;
+        }
+
+        /*箭頭下*/
+        .mwt_border .arrow_b_int{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:#333 transparent transparent transparent ;
+            position:absolute;
+            bottom:-30px;
+            right:50px;
+        }
+        /*箭頭下-邊框*/
+        .mwt_border .arrow_b_out{
+            width:0px;
+            height:0px;
+            border-width:15px;
+            border-style:solid;
+            border-color:#fff transparent transparent transparent ;
+            position:absolute;
+            bottom:-29px;
+            right:50px;
+        }
+    </style>
+    <link rel="stylesheet" href="dist/css/Style.css"/>
+    <!-- HTML5 shim and Respond.js 讓 IE8 支援 HTML5 元素與媒體查詢 -->
+    <!-- 警告：Respond.js 無法在 file:// 協定下運作 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-header">
+              <a class="navbar-brand">PingShou Home</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="Menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#index" class="active"><span class="glyphicon glyphicon-home"></span>首頁</a></li>
+                    <li><a href="#about"><span class="glyphicon glyphicon-user"></span>關於我</a></li>
+                    <li><a href="#works"><span class="glyphicon glyphicon-book"></span>作品集</a></li>
+                    <li><a href="#connectme"><span class="glyphicon glyphicon-heart"></span>連絡我</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid topUp">
+        <!--首頁start-->
+        <div class="row" id="index">
+            <div id="pic_Index" class="col-md-12 img-responsive">
+            </div>
+        </div>
+        <!--首頁end-->
+        <!--關於我start-->
+        <div class="row" id="about">
+            <div class="col-md-12" >
+                <div class="container-fluid">
+                    <div class="row">
+                        <h1 class="ResumeArea">個人簡歷</h1>
+                        <p class="line"></p>
+                        <div class="thumbnail">
+                            <a class="crop" id="headshot">
+                                <img src="img/my_headshot.jpg" alt="大頭照" class="img-circle img-responsive">
+                            </a>
+                            <div id="dialog" class="row" align="middle">
+                                <div class="mwt_border">
+                                    <span class="arrow_t_int"></span>
+                                    <span class="arrow_t_out"></span>
+                                    <h4><b>石秉修</b></h4>
+                                    <p>網頁程式工程師/網頁設計</p>
+                                    <p>想東想西的小小工程師</p>
+                                </div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="thumbnail">
+                                            <div class="c_title center-block">經歷</div>
+                                            <div class="caption">
+                                                <ul>
+                                                    <li>2015~2016：元誠國際資產管理股份有限公司 資訊研發實習生</li>
+                                                    <li>2012~2015：遊戲101班代</li>
+                                                    <li>2014~2015：雲端科技社社長</li>
+                                                    <li>Taiwan Hackathon Volunteers</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="thumbnail">
+                                            <div class="c_title center-block">專長</div>
+                                            <div class="caption">
+                                                <ul>
+                                                    <li>版本控制：Git、Vss</li>
+                                                    <li>網頁前端：Jquery,Bootstrap,Html5、Css3</li>
+                                                    <li>網頁後端：ASP.NET、ASP MVC、MS SQL、Web Api、Web services</li>
+                                                    <li>程式語言：Qt/Qml、C#、C++、C、JavaScript、SQL</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="thumbnail">
+                                            <div class="c_title center-block">獎項</div>
+                                            <div class="caption">
+                                                <ul>
+                                                    <li>虎尾科大全國專題競賽【第三名】</li>
+                                                    <li>全國運龍盃遊戲與遊戲機創意設計比賽【創意獎】 </li>
+                                                    <li>龍華創意校歌比賽【第四名】</li>
+                                                    <li>取得TQC Photoshop CS6證照</li>
+                                                    <li>乙級硬體裝修證照</li>
+                                                    <li>丙級軟體應用證照</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--關於我end-->
+        <!--作品集start-->
+        <div class="row workarea" id="works">
+            <h1 class="ResumeArea">作品集</h1>
+            <p class="line"></p>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="thumbnail" align="middle">
+                    <h2>作品名稱:circon</h2>
+                    <div cla="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" title="YouTube video player" src="http://www.youtube.com/embed/cHuLwpHulI8" frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="caption">
+                        <h3>音樂打擊遊戲</h3>
+                        <p>蓋亞之音 調星師CIRCON 是一款節奏打擊手機音樂遊戲。玩家將扮演主角抵禦來自外太空的攻擊，遊戲共有5個關卡，每關各有一首代表歌曲，每首歌曲象徵一段故事。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <!--作品集end-->
+        <!--連絡我start-->
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+        <!--連絡我end-->
+    </div>
+
+</body>
+<!--plugin necessary file-->
+<script src="dist/js/JQuery1.11.1.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/Menu.js"></script>
+
+</html>

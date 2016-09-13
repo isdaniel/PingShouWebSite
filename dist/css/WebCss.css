@@ -1,0 +1,101 @@
+.mwt_border{
+    width:250px;
+    height:150px;
+    text-align:center;
+    background:#FFFACD;
+    position:relative;
+    border: solid 1px #333;
+    margin:20px;
+    padding:20px;
+}
+/*箭頭右*/
+.mwt_border .arrow_r_int{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:transparent transparent transparent #333;
+    position:absolute;
+    top:20%;
+    right:-30px;
+}
+/*箭頭右-邊框*/
+.mwt_border .arrow_r_out{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:transparent transparent transparent #fff;
+    position:absolute;
+    top:20%;
+    right:-29px;
+}
+
+/*箭頭左*/
+.mwt_border .arrow_l_int{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:transparent #333 transparent  transparent ;
+    position:absolute;
+    top:20%;
+    left:-30px;
+}
+/*箭頭左-邊框*/
+.mwt_border .arrow_l_out{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent ;
+    position:absolute;
+    top:20%;
+    left:-29px;
+}
+
+/*箭頭上*/
+.mwt_border .arrow_t_int{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:transparent transparent #333 transparent ;
+    position:absolute;
+    top:-30px;
+    left:40px;
+}
+/*箭頭上-邊框*/
+.mwt_border .arrow_t_out{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:transparent transparent #fff transparent ;
+    position:absolute;
+    top:-29px;
+    left:40px;
+}
+
+/*箭頭下*/
+.mwt_border .arrow_b_int{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:#333 transparent transparent transparent ;
+    position:absolute;
+    bottom:-30px;
+    right:50px;
+}
+/*箭頭下-邊框*/
+.mwt_border .arrow_b_out{
+    width:0px;
+    height:0px;
+    border-width:15px;
+    border-style:solid;
+    border-color:#fff transparent transparent transparent ;
+    position:absolute;
+    bottom:-29px;
+    right:50px;
+}

@@ -1,0 +1,61 @@
+.titleMenu{
+    margin: 20px 0;
+}
+.ResumeArea{
+    align-content: center;
+    text-align: center;
+}
+.line {border-top-style:solid; border-top-width:medium;}
+/* 超小螢幕設備（手機，小於 768px） */
+/* 沒有媒體查詢，因為這在 Bootstrap 3 是預設的。 */
+
+/* 小螢幕設備（平板，768px（含）以上） */
+@media (min-width:768px) { }
+
+/* 中螢幕設備（一般桌面，992px（含）以上） */
+@media (min-width: 992px) {  }
+
+/* 大螢幕設備（大型桌面，1200px（含）以上） */
+@media (min-width: 1200px) {  }
+.topUp{
+    margin-top:50px;
+}
+.poster{
+    width: 245px;
+    height: 296px;
+}
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.crop img {
+    width: 240px;
+    height: 180px;
+}
+.thumbnails .caption{
+    text-align:center;
+}
+.c_title{
+    width:120px;
+    height:120px;
+    background-image:url('../../img/t1.png');
+    background-repeat:no-repeat;
+    text-align:center;
+    line-height:120px;
+    font-size:24px;
+    font-weight:bolder;
+    letter-spacing:0;
+}
+.workarea{
+    background-color: #FAFAD2;
+}
+#pic_Index{
+    background: url("../../img/golden_gate_bridge.jpg") 50% 0px / cover no-repeat fixed;
+}
+.carousel-inner img{
+    margin: 0 auto;
+}
+.carousel-control{
+    font-size: 100px;
+}
